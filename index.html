@@ -4,13 +4,14 @@
     <!-- REQUIRED METE TAGS -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANIMALS</title>
     <!--FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>ANIMALS</title>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
   </head>
   <body>
     <!-- HEADER SECTION CODE START FROM HERE -->
@@ -18,9 +19,9 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                   <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                      <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                     </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -41,7 +42,7 @@
                               <div class="input-group">
                                 <input type="text" class="form-control" placeholder="search" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                 <div class="input-group-append">
-                                  <span class="input-group-text" id="basic-addon2">
+                                  <span class="input-group-text" id="basic-addon1">
                                     <a href=""><i class="fa fa-search"></i></a>
                                   </span>
                                 </div>
@@ -65,12 +66,12 @@
                     humour randomised words.
                  </P>
                  <div class="btn-group">
-                     <button class="btn  btn-lg btn-primary border border-3 rounded">Contact Us</button>
-                     <button class="btn border border-3 border-white rounded text-white ms-4">Our Service</button>
+                     <button class="btn  btn-lg btn-primary border border-3 rounded-2">Contact Us</button>
+                     <button class="btn border border-3 border-white rounded-2 text-white ms-4">Our Service</button>
                  </div>
               </div>
               <div class="col-md-4">
-                  <img src="img/banner-dog.png" class="img-fluid">
+                  <img src="img/banner-dog.png" alt="banner" class="img-fluid">
               </div>
           </div>
        </div>
@@ -93,7 +94,7 @@
                 </div>
                 <div class="col-md-5">
                     <div class="service-video">
-                        <img src="img/video-img-1.png" class="img-fluid">
+                        <img src="img/video-img-1.png" class="img-fluid" alt="video-1">
                         <div class="shadow"></div>
                         <div class="box"></div>
                         <a href="#" class="video-icon"><i class="fas fa-play"></i></a>
@@ -120,7 +121,7 @@
             <div class="row mt-5">
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="img/category-1.png" class="img-fluid">
+                        <img src="img/category-1.png" class="img-fluid" alt="item-1">
                         <h2>Veterinarian</h2>
                         <p> Lorem Ipsum available, but
                             the majority have suffered
@@ -130,7 +131,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="img/category-1.png" class="img-fluid">
+                        <img src="img/category-2.png" class="img-fluid" alt="item-2">
                         <h2>Vaccination Care</h2>
                         <p> Lorem Ipsum available, but
                             the majority have suffered
@@ -140,7 +141,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="img/category-1.png" class="img-fluid">
+                        <img src="img/category-3.png" class="img-fluid" alt="item-3">
                         <h2>Dental Care</h2>
                         <p> Lorem Ipsum available, but
                             the majority have suffered
@@ -157,9 +158,9 @@
     <section class="service-2">
         <div class="container">
             <div class="row">
-                 <div class="col-md-5">
+                <div class="col-md-5">
                     <div class="service-video">
-                        <img src="img/video-img-2.png" class="img-fluid">
+                        <img src="img/video-img-2.png" class="img-fluid" alt="video-2">
                         <div class="shadow"></div>
                         <div class="box"></div>
                         <a href="#" class="video-icon"><i class="fas fa-play"></i></a>
@@ -196,9 +197,11 @@
             <div class="row mt-5">
                 <div class="col-md-4">
                     <div class="price-list">
-                        <img src="img/price-1.png" class="img-fluid">
-                        <span><del>$50</del></span>
-                        <span>$30</span>
+                        <img src="img/price-1.png" class="img-fluid" alt="price-1">
+                        <div class="before-after-price">
+                            <span class="before-price"><del>$50</del></span>
+                            <span>$40</span>
+                        </div>
                         <div class="list-btn">
                           <button class="btn btn-primary rounded">Buy Now</button>
                         </div>
@@ -206,9 +209,11 @@
                 </div>
                 <div class="col-md-4">
                     <div class="price-list">
-                        <img src="img/price-1.png" class="img-fluid">
-                        <span><del>$50</del></span>
-                        <span>$30</span>
+                        <img src="img/price-2.png" class="img-fluid" alt="price-2">
+                        <div class="before-after-price">
+                            <span class="before-price"><del>$40</del></span>
+                            <span>$25</span>
+                        </div>
                         <div class="list-btn">
                           <button class="btn btn-primary rounded">Buy Now</button>
                         </div>
@@ -216,9 +221,11 @@
                 </div>
                 <div class="col-md-4">
                     <div class="price-list">
-                        <img src="img/price-1.png" class="img-fluid">
-                        <span><del>$50</del></span>
-                        <span class="red">$30</span>
+                        <img src="img/price-3.png" class="img-fluid" alt="price-3">
+                        <div class="before-after-price">
+                            <span class="before-price"><del>$45</del></span>
+                            <span class="red">$30</span>
+                        </div>
                         <div class="list-btn">
                           <button class="btn btn-primary rounded">Buy Now</button>
                         </div>
@@ -245,7 +252,7 @@
             <div class="row mt-5">
                 <div class="col-md-4">
                     <div class="team-members">
-                         <img src="img/members-1.png" class="img-fluid">
+                         <img src="img/members-1.png" class="img-fluid" alt="members-1">
                          <h3>Jennifer Mullen</h3>
                          <h4>VETERINARY</h4>
                          <div class="social-icon">
@@ -260,7 +267,7 @@
                 </div>
                <div class="col-md-4">
                     <div class="team-members">
-                         <img src="img/members-2.png" class="img-fluid">
+                         <img src="img/members-2.png" class="img-fluid" alt="members-2">
                          <h3>Sheeren Collins</h3>
                          <h4>ADMINISTRATION</h4>
                          <div class="social-icon">
@@ -275,7 +282,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="team-members">
-                         <img src="img/members-3.png" class="img-fluid">
+                         <img src="img/members-3.png" class="img-fluid" alt="members-3">
                          <h3>Jennifer Mullen</h3>
                          <h4>VETERINARY</h4>
                          <div class="social-icon">
@@ -292,6 +299,148 @@
         </div>
     </section>
     <!-- TEAM SECTION CODE END FROM HERE -->
+    
+    <!-- HISTORY SECTION CODE START FROM HERE -->
+    <section class="history">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#"><i class="fas fa-heartbeat"></i></a>
+                        <h2>+34793</h2>
+                        <h3>Happy Clients</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><i class="fas fa-heartbeat"></i></a>
+                        <h2>+45382</h2>
+                        <h3>Departament</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><i class="fas fa-heartbeat"></i></a>
+                        <h2>+54762</h2>
+                        <h3>Vaccinations</h3>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </section>
+    <!-- HISTORY SECTION CODE END FROM HERE -->
+
+    <!-- POST SECTION CODE START FROM HERE -->
+    <section class="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                     <div class="sec-title">
+                         <h1>Recent Posts</h1>
+                         <p> Lorem Ipsum available, but the majority have
+                          suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="post-list">
+                        <img src="img/post-1.png" class="img-fluid" alt="post-1">
+                        <div class="post-desc">
+                            <h4>As a veterinarian and
+                                lover of animals
+                             </h4>
+                             <span>FEBRUARY 09, 2020</span>
+                             <p>Lorem Ipsum available, but the majo
+                               rity have suffered alteration in some
+                               words which look.
+                             </p>
+                             <a href="">Read More+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post-list">
+                        <img src="img/post-2.png" class="img-fluid" alt="post-2">
+                        <div class="post-desc">
+                            <h4>As a veterinarian and
+                                lover of animals
+                             </h4>
+                             <span>FEBRUARY 09, 2020</span>
+                             <p>Lorem Ipsum available, but the majo
+                               rity have suffered alteration in some
+                               words which look.
+                             </p>
+                             <a href="">Read More+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post-list">
+                        <img src="img/post-3.png" class="img-fluid" alt="post-3">
+                        <div class="post-desc">
+                            <h4>As a veterinarian and
+                                lover of animals
+                             </h4>
+                             <span>FEBRUARY 09, 2020</span>
+                             <p>Lorem Ipsum available, but the majo
+                               rity have suffered alteration in some
+                               words which look.
+                             </p>
+                             <a href="">Read More+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- POST SECTION CODE END FROM HERE -->
+
+    <!-- FOOTER SECTION CODE START FROM HERE -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>About</h2>
+                    <ul>
+                        <li><a href="#">history</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Brand Guidelines</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Services</h2>
+                    <ul>
+                        <li><a href="#">How to Order</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Promo</a></li>
+                        <li><a href="#">Payment Method</a></li>
+                    </ul>   
+                </div>
+                <div class="col-md-6">
+                    <div class="right-text">
+                         <h2>Title Here</h2>
+                         <p> Lorem Ipsum available, but the majorit</p>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2"><a href="#"><i class="fas fa-paper-plane"></i></a></span>
+                        </div>
+                    </div>
+                   <div class="footer-icon">
+                       <ul>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                       </ul>
+                   </div>    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION CODE END FROM HERE -->
 
     
 
